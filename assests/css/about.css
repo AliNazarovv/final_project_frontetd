@@ -1,0 +1,101 @@
+.about_card1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.about_card1 img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    clip: rect(0, auto, auto, 0);
+    background-attachment: fixed;
+}
+
+.about_card1 .about_card1_img {
+    width: 50%;
+    margin-top: 29px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.about_card1_words {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 49%;
+    background-color: #5e3ad4;
+}
+
+
+.about_card1_words h1 {
+    font-size: 57px;
+    line-height: 1.1em;
+    font-weight: bold;
+}
+
+.about_card1_words p {
+    line-height: 1.2em;
+    width: 321px;
+    font-size: 25px;
+}
+
+.about_card1_words .s1 {
+    line-height: 1.6em;
+    left: 0;
+    font-size: 18px;
+
+}
+
+
+.about_card2 {
+    display: flex;
+}
+
+.about_card2_words {
+    position: relative;
+    margin: 77px 15%;
+    left: 97px;
+    justify-self: start;
+    align-self: start;
+    width: 23%;
+}
+
+
+
+
+
+.about_card2_heading h1 {
+    color: #5e3ad4;
+    line-height: 1.1em;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.about_card2_words p {
+    color: #5e3ad4;
+    line-height: 1.1em;
+    font-size: 25px;
+}
+
+.p1>p,
+.p2>p {
+    line-height: 1.6em;
+    font-size: 17px;
+    color: black;
+}
+
+.about_card2_img{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.footer_bottom{
+    margin-bottom: 30px;
+}

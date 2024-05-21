@@ -1,0 +1,176 @@
+.container {
+    width: 1789px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.flex-column {
+    flex-direction: column;
+
+}
+
+.header-bottom {
+    background-color: #050715;
+    height: 100px;
+}
+
+.allign-items-center {
+    align-items: center;
+}
+
+.header-bottom .container {
+    margin-top: 50px
+}
+
+
+
+header .nav_left_side,
+header .nav_right_side>li {
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+
+
+}
+
+
+
+.justify-content-sb {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.navbar .nav_left_side>li {
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.navbar a {
+    padding: 2px 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar li.active a,
+.navbar li:hover a {
+    color: #334898;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.n_right_side a {
+    display: inline-block;
+    position: relative;
+
+}
+
+.n_right_side .m_border {
+    background-color: #5e3ad4;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.n_right_side .m_border:hover {
+    background-color: #fff;
+    transition: 0.7s;
+    color: #5e3ad4;
+}
+
+.n_right_side li {
+    display: flex;
+    align-items: center;
+}
+
+.n_right_side i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.n_right_side .right a {
+    font-size: 18px;
+}
+
+main {
+    display: grid;
+    background-color: #050715;
+    position: static;
+    height: auto;
+    width: 100%;
+    min-height: 919px;
+   
+}
+
+
+
+main .heading_class{
+   
+}
+main h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+main .class {
+    margin-top: 60px;
+}
+
+.line_col {
+    padding: 15%;
+
+}
+
+.line_words {
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    justify-content: space-between;
+}
+
+.line_words .btn2 {
+    background-color: #334898;
+    font-size: 16px;
+    padding: 10px 55px;
+    color: whitesmoke;
+}
+
+.line_words .btn2:hover {
+    background-color: #434898;
+
+}
+
+.line_words .head {
+    font-size: 30px;
+    width: 25%;
+    font-weight: bold;
+}
+
+
+
+
+.line_words .schedule {
+    margin: 4px;
+    font-size: 17px;
+    flex-basis: calc(30% - 24px);
+
+}
+
+footer{
+    margin: 0;
+}
